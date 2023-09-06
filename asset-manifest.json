@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MindfullMate/static/css/main.6732a902.css",
+    "main.js": "/MindfullMate/static/js/main.2e7a3a7f.js",
+    "index.html": "/MindfullMate/index.html",
+    "main.6732a902.css.map": "/MindfullMate/static/css/main.6732a902.css.map",
+    "main.2e7a3a7f.js.map": "/MindfullMate/static/js/main.2e7a3a7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6732a902.css",
+    "static/js/main.2e7a3a7f.js"
+  ]
+}
