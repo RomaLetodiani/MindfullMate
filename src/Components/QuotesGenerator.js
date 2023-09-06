@@ -9,11 +9,14 @@ const QuotesGenerator = ({ setIsOn, isOn }) => {
 
   const fetchQuotes = () => {
     axios
-      .get('http://localhost:3001/quotes')
+      .get('https://romaletodiani.github.io/MindfullMate/db.json')
       .then((res) => {
-        if (res.data.length > 0) {
-          const randomIndex = Math.floor(Math.random() * res.data.length);
-          const selectedQuote = res.data[randomIndex];
+        console.log(res.data.quotes);
+        if (res.data.quotes.length > 0) {
+          const randomIndex = Math.floor(
+            Math.random() * res.data.quotes.length
+          );
+          const selectedQuote = res.data.quotes[randomIndex];
           setCurrentQuote(selectedQuote);
         } else {
           setError('No quotes found.');

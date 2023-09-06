@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://RomaLetodiani.github.io/{}",
+  "homepage": "https://RomaLetodiani.github.io/MindfullMate",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
